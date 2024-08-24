@@ -10,10 +10,10 @@ public class Even {
         for (i = 1; i <= n; i++) {
 
             if (i % 2 == 0) {
-
                 sum += i;
                 System.out.println(i);
             }
         }
+       System.out.println("Even sum is" + sum);
     }
 }
